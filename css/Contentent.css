@@ -1,0 +1,126 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name {
+  width: 80%;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 20%;
+  color: black;
+}
+
+.language:hover {
+  background-color: rgb(116, 188, 211);
+}
+
+.links {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 70%;
+}
+
+.left {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+
+.right-side {
+  width: 30%;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first {
+  text-indent: 20px;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+}
+
+.first-left {
+  width: 80%;
+}
+
+.second-left {
+  width: 30%;
+  float: right;
+}
+
+.icon {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.icon1,
+.icon2 {
+  width: 20px;
+  margin-left: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec {
+  border: 1px solid;
+  height: 100%;
+  width: 90%;
+  background-color: #f8f9fa;
+  padding: 0px 5px 0px 5px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.second {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.img {
+  height: 275px;
+  width: 220px;
+}
+
+.official {
+  font-size: 15px;
+}
+
+.alt {
+  text-decoration: none;
+}
+
+.alt:hover {
+  text-decoration: underline;
+}
+
+.alt::after {
+  text-decoration-color: aqua;
+}
